@@ -2,14 +2,233 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Survey</title>
+	<title>Friend Finder Survey</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 	<div class="container">
+
 		<div class="jumbotron">
-			<h1 class="text-center">Friend Finder Survey</h1>
+			<h1 class="text-center">Friend Finder Survey</h1>		
+		</div>
+
+		<form id="user-form">
+
+			<h2><strong>About You</strong></h2>
+
+			<div class="form-group">
+				<label for="name"><h3>Name (required):</h3></label>
+				<input type="text" id="name" class="form-control" required="">
+			</div>
+
+
+			<div class="form-group">
+				<label for="photo"><h3>Link to Photo Image (required):</h3></label>
+				<input type="text" id="photo" class="form-control" required="">
+			</div>
+
+			<hr>
+
+			<h2><strong>Question 1</strong></h2>
+			<div class="form-group">
+				<label for="q1"><h4>You value difficult truths over comforting lies.</h4></label><br>
+				<select id="q1">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 2</strong></h2>
+			<div class="form-group">
+				<label for="q2"><h4>You are a sci-fi fan.</h4></label><br>
+				<select class="chosen-select" id="q2">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 3</strong></h2>
+			<div class="form-group">
+				<label for="q3"><h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4></label><br>
+				<select id="q3">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 4</strong></h2>
+			<div class="form-group">
+				<label for="q4"><h4>question text</h4></label><br>
+				<select id="q4">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 5</strong></h2>
+			<div class="form-group">
+				<label for="q5"><h4>question text</h4></label><br>
+				<select id="q5">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 6</strong></h2>
+			<div class="form-group">
+				<label for="q6"><h4>question text</h4></label><br>
+				<select id="q6">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 7</strong></h2>
+			<div class="form-group">
+				<label for="q7"><h4>question text</h4></label><br>
+				<select id="q7">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 8</strong></h2>
+			<div class="form-group">
+				<label for="q8"><h4>question text</h4></label><br>
+				<select id="q8">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 9</strong></h2>
+			<div class="form-group">
+				<label for="q9"><h4>question text</h4></label><br>
+				<select id="q9">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<h2><strong>Question 10</strong></h2>
+			<div class="form-group">
+				<label for="q10"><h4>question text</h4></label><br>
+				<select id="q10">
+					<option value>Select an Option</option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+
+			<br>
+
+			<button class="btn btn-primary btn-lg btn-block" type="submit" id="submit-btn">Submit</button>
+		</form>
+
+		<hr>
+
+		<footer class="footer">
+			<div class="container">
+				<p><a href="/friends">API Friends List</a> | <a href="https://mrhunter83.github.io/FriendFinder/">GitHub Repo</a></p>	
+			</div>
+		</footer>
+	</div>
+
+	<div id="modal-div" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h2>Best Match</h2>
+				</div>
+				<div class="modal-body">
+					<h2 id="friendName"></h2>
+					<img id="friendImg" style="max-width:100%; max-height:100%" src="" alt="">
+				</div>
+				<div class="modal-footer">
+					<button id="modal-close" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+<script type="text/javascript">
+	$("#submit-btn").on("click", function(event) {
+		var user = {
+			name: $("#name").val(),
+			photo: $("#photo").val(),
+			scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(),],
+		};
+
+		// clear form inputs
+		$("#name").val("");
+		$("#photo").val("");
+		$("#q1").val("");
+		$("#q2").val("");
+		$("#q3").val("");
+		$("#q4").val("");
+		$("#q5").val("");
+		$("#q6").val("");
+		$("#q7").val("");
+		$("#q8").val("");
+		$("#q9").val("");
+		$("#q10").val("");
+
+		var currentURL = window.location.origin;
+
+		$.post(currentURL + "/api/friends", user, function(data) {
+			console.log(data);
+			$("#friendName").text(data.name);
+			$("#friendImg").attr("src", data.photo);
+			$("#modal-div").modal("toggle");
+		});
+	})
+</script>
 </html>
